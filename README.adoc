@@ -1,4 +1,6 @@
 = Maven Test
+
+== Introduction
 This repository is an example of how to get the *January Project*
 to work on an other project with *maven*.
 
