@@ -1,0 +1,32 @@
+= Maven Test
+This repository is an example of how to get the *January Project*
+to work on an other project with *maven*.
+
+== How-to
+* Compile the january project to a jar file using in the main directory:
+[source, maven]
+----
+maven clean package
+----
+
+The jar file is located at :
+[source, file path]
+----
+january\org.eclipse.january\target\org.eclipse.january-2.1.0-SNAPSHOT.jar
+----
+
+* add this jar to you local maven repository using :
+[source, maven]
+----
+mvn install:install-file -Dfile=org.eclipse.january-2.1.0-SNAPSHOT.jar -DgroupId=org.eclipse -DartifactId=january -Dversion=2.1.0-SNAPSHOT -Dpackaging=jar
+----
+
+* In you project add this dependency to your pom.xml :
+[source, xml]
+----
+<dependency>
+  <groupId>org.eclipse</groupId>
+  <artifactId>january</artifactId>
+  <version>2.1.0-SNAPSHOT</version>
+</dependency>
+----
