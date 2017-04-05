@@ -6,18 +6,18 @@ to work on an other project with *maven*.
 
 == How-to
 * Compile the january project to a jar file using in the main directory:
-[source, maven]
+[source, maven]d
 ----
-maven clean package
+mvn clean package
 ----
 
 The jar file is located at :
 [source, file path]
 ----
-january\org.eclipse.january\target\org.eclipse.january-2.1.0-SNAPSHOT.jar
+january/org.eclipse.january/target/
 ----
 
-* add this jar to you local maven repository using :
+* from this location add the jar to you local maven repository using :
 [source, maven]
 ----
 mvn install:install-file -Dfile=org.eclipse.january-2.1.0-SNAPSHOT.jar -DgroupId=org.eclipse -DartifactId=january -Dversion=2.1.0-SNAPSHOT -Dpackaging=jar
