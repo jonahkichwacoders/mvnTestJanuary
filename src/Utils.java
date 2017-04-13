@@ -41,9 +41,9 @@ public class Utils {
 				public void write(int b) {
 				}
 			}));
-	
+
 			LoggerFactory.getLogger(BasicExample.class);
-	
+
 		} finally {
 			System.setErr(saved);
 		}
@@ -68,7 +68,7 @@ public class Utils {
 	public static void printDType(Dataset a) {
 		System.out.println(DTypeUtils.getDTypeName(a));
 	}
-	
+
 	/**
 	 * This function create a TestWatcher writing on screen the names of called
 	 * classes and methods.
