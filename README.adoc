@@ -1,4 +1,4 @@
-= MvnTest
+= MvnTestJanuary
 
 == Introduction
 This repository is an example of how to get the *January Project*
