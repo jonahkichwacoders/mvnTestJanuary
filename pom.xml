@@ -12,6 +12,10 @@
 			<name>Yannick Mayeur</name>
 			<email>yannick.mayeur@gmail.com</email>
 		</developer>
+		<developer>
+			<name>Jonah Graham</name>
+			<email>jonah@kichwacoders.com</email>
+		</developer>
 	</developers>
 
 	<build>
@@ -52,8 +56,6 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!-- Comment one of the January dependencies out -->
-		<!-- January 2.0.2 -->
 		<dependency>
 			<groupId>org.eclipse.january</groupId>
 			<artifactId>org.eclipse.january</artifactId>

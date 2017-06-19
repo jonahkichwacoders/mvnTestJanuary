@@ -2,7 +2,7 @@
 
 == Introduction
 This repository is an example of how to get the *January Project*
-to work on an other project with *maven*.
+to work on another project with *maven*.
 
 == How-to
 * Compile the project using the following command:
@@ -37,5 +37,3 @@ mvn exec:java
 </profiles>
 ----
 
-* Comment out the January dependency, and remove comments of the January-SNAPSHOT and
-common-math3 dependencies
